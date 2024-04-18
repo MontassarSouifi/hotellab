@@ -75,7 +75,7 @@ class ProcessController extends Controller
         if (!$deposit) {
             $notify[] = ['error', 'Invalid request'];
         }
-        
+
         $sig = hash_hmac('sha256', $request->razorpay_order_id . "|" . $request->razorpay_payment_id, $razorAcc->key_secret);
         $deposit->detail = $request->all();
         $deposit->save();

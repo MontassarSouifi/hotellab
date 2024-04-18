@@ -64,7 +64,7 @@
 
     (function($){
         "use strict";
-        
+
         myVal();
         $('select[name=type]').on('change',function(){
             myVal();
