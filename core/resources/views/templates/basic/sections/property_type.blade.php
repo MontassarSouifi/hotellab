@@ -3,7 +3,7 @@ $property = getContent('property_type.content', true);
 $propertyTypes = App\Models\PropertyType::with('properties')->where('status', 1)->orderBy('id', 'DESC')->limit(10)->get();
 @endphp
 <!-- property section start -->
-<section class="pt-100 pb-100 property-section">
+{{-- <section class="pt-100 pb-100 property-section">
     <div class="bg-el"><img src="{{ asset($activeTemplateTrue.'images/bg/ele-bg.png') }}" alt="image"></div>
     <div class="bg-el2"><img src="{{ asset($activeTemplateTrue.'images/bg/ele-bg2.png') }}" alt="image"></div>
     <div class="container">
@@ -32,5 +32,5 @@ $propertyTypes = App\Models\PropertyType::with('properties')->where('status', 1)
         @endforeach
       </div>
     </div>
-  </section>
+  </section> --}}
   <!-- property section end -->

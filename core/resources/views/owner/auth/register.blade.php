@@ -233,7 +233,7 @@
 
         .input-popup p.success::before {
             content: "\f058";
-            color: #28c76f;
+            color: #6EBB2D;
         }
     .form-area .form-wrapper{
         width: 630px;

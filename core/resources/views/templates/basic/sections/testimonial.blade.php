@@ -3,7 +3,7 @@ $testimonialContent = getContent('testimonial.content', true);
 $testimonialElements = getContent('testimonial.element');
 @endphp
 
-
+{{-- 
 <!-- testimonial section start -->
 <section class="pt-100 pb-100">
     <div class="container">
@@ -39,4 +39,4 @@ $testimonialElements = getContent('testimonial.element');
         </div>
     </div>
 </section>
-<!-- testimonial section end -->
+<!-- testimonial section end --> --}}
