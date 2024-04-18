@@ -51,7 +51,7 @@
                 <div class="icon">
                   <i class="las la-phone-volume"></i>
                 </div>
-                <div class="content"> 
+                <div class="content">
                   <a href="tel:2454541544">{{ __($contact->data_values->contact_number) }}</a>
                 </div>
               </li>
@@ -59,7 +59,7 @@
                 <div class="icon">
                   <i class="las la-map-marker-alt"></i>
                 </div>
-                <div class="content"> 
+                <div class="content">
                   <p>{{ __($contact->data_values->contact_address) }}</p>
                 </div>
               </li>
@@ -67,7 +67,7 @@
                 <div class="icon">
                   <i class="las la-phone-volume"></i>
                 </div>
-                <div class="content"> 
+                <div class="content">
                   <a href="mailto:demo@gmail.com">{{ __($contact->data_values->email_address) }}</a>
                 </div>
               </li>
@@ -93,4 +93,3 @@
       </div>
     </div>
   </footer>
-  

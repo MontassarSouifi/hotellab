@@ -26,18 +26,18 @@
                     <input type="text" name="code" id="code" class="form--control" placeholder="@lang('Verification code')">
                 </div>
 
-            
+
                 <div class="form-group mt-4">
                     <button type="submit" class="btn btn--base w-100">@lang('Verify Code')</button>
                 </div>
-        
+
 
                 <div class="form-group d-flex justify-content-between align-items-center">
                     @lang('Please check including your Junk/Spam Folder. if not found, you can')
                     <a href="{{ route('user.password.request') }}" class="w-25">@lang('Try again')</a>
                 </div>
 
-               
+
             </form>
         </div>
     </div>
