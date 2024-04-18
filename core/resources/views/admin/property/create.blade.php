@@ -23,21 +23,24 @@
                             </div>
                             <div class="content">
                                 <div class="form-group">
-                                    <label class="w-100">@lang('Property Name') <span class="text-danger">*</span></label>
-                                    <input type="text" class="form-control" placeholder="@lang('Property Name')" name="name" value="{{ old('name') }}" />
+                                    <label class="w-100">@lang('Hotel Name') <span class="text-danger">*</span></label>
+                                    <input type="text" class="form-control" placeholder="@lang('Hotel Name')" name="name" value="{{ old('name') }}" />
                                 </div>
                                 <div class="row mt-4">
-                                    <div class="col-md-12">
-                                        <div class="form-group">
-                                            <label class="w-100">@lang('Property Type') <span class="text-danger">*</span></label>
-                                            <select name="property_type" class="form-control">
+                                    {{-- <div class="col-md-12"> 
+                                        <div class="form-group"> 
+                                             <label class="w-100">@lang('Hotel Type') <span class="text-danger">*</span></label> 
+                                         <select name="property_type" class="form-control">
                                                 <option value="">@lang('Select One')</option>
                                                 @foreach($propertyTypes as $propertyType)
                                                     <option value="{{ $propertyType->id }}">{{ __($propertyType->name) }}</option>
                                                 @endforeach
-                                            </select>
-                                        </div>
-                                    </div>
+                                            </select> 
+                                           wiltout select set defult as $propertyType->id = 1 --}}
+                                            <input type="text" class="form-control" placeholder="@lang('Hotel Type')" name="property_type" value="{{ old('property_type') ?? 1 }}" hidden />
+
+                                        {{-- </div> --}}
+                                    {{-- </div> --}}
                                     <div class="col-md-12">
                                         <div class="form-group">
                                             <label class="w-100">@lang('Location') <span

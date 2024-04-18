@@ -26,12 +26,13 @@
         <h3 class="title"><a href="{{ route('property', [$property->id, slug($property->name)]) }}">{{ __($property->name) }}</a></h3>
         <p class="mt-1"><i class="las la-map-marker-alt fs--18px"></i> {{ __($property->location->name) }}</p>
         <ul class="features-list mt-2">
-          @if($property->extra_features)
-            @foreach($property->extra_features as $feature)
-                <li>{{ __($feature) }}</li>
-                @php if($loop->iteration == 2){ break; } @endphp
-            @endforeach
-          @endif
+          @if ($property->extra_features)
+          <ul class="features-list mt-2">
+              @foreach ($property->extra_features as $feature)
+                  <li>{{ __($feature) }}</li>
+              @endforeach
+          </ul>
+      @endif
         </ul>
         <div class="hotel-rating fs--14px mt-3">
           <span class="amount bg--success fs--16px px-2 text-white rounded-2">{{ showAmount($property->rating) }}</span>

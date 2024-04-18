@@ -19,7 +19,7 @@
                     </a>
                 </li>
 
-                <li class="sidebar-menu-item {{menuActive('admin.location*')}}">
+                {{-- <li class="sidebar-menu-item {{menuActive('admin.location*')}}">
                     <a href="{{route('admin.location.index')}}" class="nav-link ">
                         <i class="menu-icon las la-map-marker-alt"></i>
                         <span class="menu-title">@lang('Location')</span>
@@ -38,32 +38,32 @@
                         <i class="menu-icon las la-bars"></i>
                         <span class="menu-title">@lang('Amenity')</span>
                     </a>
-                </li>
+                </li> --}}
 
                 <li class="sidebar-menu-item sidebar-dropdown">
                     <a href="javascript:void(0)" class="{{ menuActive('admin.property*', 3) }}">
                         <i class="menu-icon las la-store-alt"></i>
-                        <span class="menu-title">@lang('Property')</span>
+                        <span class="menu-title">@lang('Hotels')</span>
                     </a>
                     <div class="sidebar-submenu {{menuActive('admin.property*',2)}} ">
                         <ul>
                             <li class="sidebar-menu-item {{menuActive('admin.property.index')}} ">
                                 <a href="{{ route('admin.property.index') }}" class="nav-link">
                                     <i class="menu-icon las la-dot-circle"></i>
-                                    <span class="menu-title">@lang('All Property')</span>
+                                    <span class="menu-title">@lang('All Hotels')</span>
                                 </a>
                             </li>
                             <li class="sidebar-menu-item {{ menuActive('admin.property.room.category*') }}">
                                 <a href="{{ route('admin.property.room.category.index') }}" class="nav-link ">
                                     <i class="menu-icon las la-dot-circle"></i>
-                                    <span class="menu-title">@lang('Room Category')</span>
+                                    <span class="menu-title">@lang('Rooms')</span>
                                 </a>
                             </li>
                         </ul>
                     </div>
                 </li>
 
-                <li class="sidebar-menu-item sidebar-dropdown">
+                {{-- <li class="sidebar-menu-item sidebar-dropdown">
                     <a href="javascript:void(0)" class="{{menuActive('admin.users*',3)}}">
                         <i class="menu-icon las la-users"></i>
                         <span class="menu-title">@lang('Manage Users')</span>
@@ -139,7 +139,7 @@
 
                         </ul>
                     </div>
-                </li>
+                </li> --}}
 
                 <li class="sidebar-menu-item sidebar-dropdown">
                     <a href="javascript:void(0)" class="{{menuActive('admin.owners*',3)}}">
@@ -161,13 +161,13 @@
                                 </a>
                             </li>
 
-                            <li class="sidebar-menu-item {{menuActive('admin.owners.active')}} ">
+                            {{-- <li class="sidebar-menu-item {{menuActive('admin.owners.active')}} ">
                                 <a href="{{route('admin.owners.active')}}" class="nav-link">
                                     <i class="menu-icon las la-dot-circle"></i>
                                     <span class="menu-title">@lang('Active Owners')</span>
                                 </a>
-                            </li>
-                            <li class="sidebar-menu-item {{menuActive('admin.owners.banned')}} ">
+                            </li> --}}
+                           <li class="sidebar-menu-item {{menuActive('admin.owners.banned')}} ">
                                 <a href="{{route('admin.owners.banned')}}" class="nav-link">
                                     <i class="menu-icon las la-dot-circle"></i>
                                     <span class="menu-title">@lang('Banned Owners')</span>
@@ -176,7 +176,7 @@
                                     @endif
                                 </a>
                             </li>
-
+ {{-- 
                             <li class="sidebar-menu-item  {{menuActive('admin.owners.email.unverified')}}">
                                 <a href="{{route('admin.owners.email.unverified')}}" class="nav-link">
                                     <i class="menu-icon las la-dot-circle"></i>
@@ -212,13 +212,13 @@
                                     <i class="menu-icon las la-dot-circle"></i>
                                     <span class="menu-title">@lang('Email to All')</span>
                                 </a>
-                            </li>
+                            </li> --}}
 
                         </ul>
                     </div>
                 </li>
 
-                <li class="sidebar-menu-item sidebar-dropdown">
+                {{-- <li class="sidebar-menu-item sidebar-dropdown">
                     <a href="javascript:void(0)" class="{{menuActive('admin.gateway*',3)}}">
                         <i class="menu-icon las la-credit-card"></i>
                         <span class="menu-title">@lang('Payment Gateways')</span>
@@ -240,9 +240,9 @@
                             </li>
                         </ul>
                     </div>
-                </li>
+                </li> --}}
 
-                <li class="sidebar-menu-item sidebar-dropdown">
+                {{-- <li class="sidebar-menu-item sidebar-dropdown">
                     <a href="javascript:void(0)" class="{{menuActive('admin.deposit*',3)}}">
                         <i class="menu-icon las la-credit-card"></i>
                         <span class="menu-title">@lang('Payments')</span>
@@ -295,9 +295,9 @@
                             </li>
                         </ul>
                     </div>
-                </li>
+                </li> --}}
 
-                <li class="sidebar-menu-item sidebar-dropdown">
+                {{-- <li class="sidebar-menu-item sidebar-dropdown">
                     <a href="javascript:void(0)" class="{{menuActive('admin.withdraw*',3)}}">
                         <i class="menu-icon la la-bank"></i>
                         <span class="menu-title">@lang('Withdrawals') </span>
@@ -352,9 +352,9 @@
 
                         </ul>
                     </div>
-                </li>
+                </li> --}}
 
-                <li class="sidebar-menu-item sidebar-dropdown">
+                {{-- <li class="sidebar-menu-item sidebar-dropdown">
                     <a href="javascript:void(0)" class="{{menuActive('admin.ticket*',3)}}">
                         <i class="menu-icon la la-ticket"></i>
                         <span class="menu-title">@lang('Support Ticket') </span>
@@ -397,10 +397,10 @@
                             </li>
                         </ul>
                     </div>
-                </li>
+                </li> --}}
 
 
-                <li class="sidebar-menu-item sidebar-dropdown">
+                {{-- <li class="sidebar-menu-item sidebar-dropdown">
                     <a href="javascript:void(0)" class="{{menuActive('admin.report*',3)}}">
                         <i class="menu-icon la la-list"></i>
                         <span class="menu-title">@lang('Report') </span>
@@ -434,18 +434,18 @@
 
                         </ul>
                     </div>
-                </li>
+                </li> --}}
 
 
-                <li class="sidebar-menu-item  {{menuActive('admin.subscriber.index')}}">
+                {{-- <li class="sidebar-menu-item  {{menuActive('admin.subscriber.index')}}">
                     <a href="{{route('admin.subscriber.index')}}" class="nav-link"
                        data-default-url="{{ route('admin.subscriber.index') }}">
                         <i class="menu-icon las la-thumbs-up"></i>
                         <span class="menu-title">@lang('Subscribers') </span>
                     </a>
-                </li>
+                </li> --}}
 
-
+{{-- 
                 <li class="sidebar__menu-header">@lang('Settings')</li>
 
                 <li class="sidebar-menu-item {{menuActive('admin.setting.index')}}">
@@ -542,8 +542,8 @@
                             </li>
                         </ul>
                     </div>
-                </li>
-
+                </li> --}}
+{{-- 
                 <li class="sidebar__menu-header">@lang('Frontend Manager')</li>
 
                 <li class="sidebar-menu-item {{menuActive('admin.frontend.templates')}}">
@@ -583,9 +583,9 @@
 
                         </ul>
                     </div>
-                </li>
+                </li> --}}
 
-                <li class="sidebar__menu-header">@lang('Extra')</li>
+                {{-- <li class="sidebar__menu-header">@lang('Extra')</li>
 
 
                 <li class="sidebar-menu-item {{menuActive('admin.setting.cookie')}}">
@@ -623,12 +623,12 @@
                         <i class="menu-icon las la-bug"></i>
                         <span class="menu-title">@lang('Report & Request') </span>
                     </a>
-                </li>
+                </li> --}}
             </ul>
-            <div class="text-center mb-3 text-uppercase">
+            {{-- <div class="text-center mb-3 text-uppercase">
                 <span class="text--primary">{{__(systemDetails()['name'])}}</span>
                 <span class="text--success">@lang('V'){{systemDetails()['version']}} </span>
-            </div>
+            </div> --}}
         </div>
     </div>
 </div>

@@ -21,7 +21,7 @@ class PropertyController extends Controller
     }
 
     public function create(){
-        $pageTitle = 'Create New Property';
+        $pageTitle = 'Create New Hotel';
         $propertyTypes = PropertyType::where('status', 1)->get();
         $locations = Location::where('status', 1)->get();
         $amenities = Amenity::where('status', 1)->get();
