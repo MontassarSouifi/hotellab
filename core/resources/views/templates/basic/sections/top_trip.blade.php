@@ -1,4 +1,4 @@
-{{-- @php
+@php
 $trip = getContent('top_trip.content', true);
 $properties = \App\Models\Property::with('location', 'rooms')
   ->whereHas('rooms', function($room){
@@ -25,9 +25,9 @@ $properties = \App\Models\Property::with('location', 'rooms')
                 <span>@lang('off')</span>
               </div>
               @endif
-              <div class="thumb">
+              {{-- <div class="thumb">
                 <img src="{{ getImage(imagePath()['property']['path'].'/'. $property->image, imagePath()['property']['size']) }}" alt="image">
-              </div>
+              </div> --}}
               <div class="content">
                 <div class="top">
                   <div class="ratings">
@@ -68,4 +68,4 @@ $properties = \App\Models\Property::with('location', 'rooms')
     </div>
   </div>
 </section>
-<!-- best trip section end --> --}}
+<!-- best trip section end -->
