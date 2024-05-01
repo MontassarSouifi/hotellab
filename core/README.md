@@ -1,29 +1,13 @@
 <p align="center"> 
-  <img src="https://hotellab.io/img/logo-full.176f55a0.svg" alt="Sample signal" width="50%" height="50%">
+  <img src="https://i.ibb.co/PGPXSc7/Artboard-2.png" alt="Sample signal" width="50%" height="50%">
 </p>
-
-
-<h4 align="center">
-  <a href="https://github.com/amplication/amplication/actions/workflows/ci.yml">
-    <img src="https://img.shields.io/github/actions/workflow/status/amplication/amplication/ci.yml?branch=master&label=pipeline&style=flat-square" alt="continuous integration" style="height: 20px;">
-  </a>
-  <a href="https://github.com/amplication/amplication/graphs/contributors">
-    <img src="https://img.shields.io/github/contributors-anon/amplication/amplication?color=yellow&style=flat-square" alt="contributors" style="height: 20px;">
-  </a>
-  <a href="https://opensource.org/licenses/Apache-2.0">
-    <img src="https://img.shields.io/badge/apache%202.0-blue.svg?style=flat-square&label=license" alt="license" style="height: 20px;">
-  </a>
-  </a>
-</h4>
 
 ## Authors
 
+- [@mohamedmazouzi](https://www.github.com/mohamedmazouzi)
 - [@nourabid](https://github.com/nourabid)
 - [@Omar-ABDELKEFI](https://github.com/Omar-ABDELKEFI)
 - [@MontassarSouifi](https://github.com/MontassarSouifi)
-- [@octokatherine](https://www.github.com/octokatherine)
-
-
 
 # HotelLab - Online Hotel Booking Platform.
 
