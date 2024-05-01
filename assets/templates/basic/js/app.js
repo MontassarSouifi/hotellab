@@ -238,7 +238,7 @@ $(".best-trip-slider").slick({
     dots: false,
     infinite: true,
     speed: 300,
-    slidesToShow: 2,
+    slidesToShow: 4,
     arrows: true,
     prevArrow: '<div class="prev"><i class="las la-angle-left"></i></div>',
     nextArrow: '<div class="next"><i class="las la-angle-right"></i></div>',

@@ -10,14 +10,14 @@ $properties = \App\Models\Property::with('location', 'rooms')
 <section class="pt-100 pb-100 bg_img best-trip-section" style="background-image: url('{{ getImage('assets/images/frontend/top_trip/'.$trip->data_values->background_image, '1920x1090') }}');">
   <div class="container-fluid">
     <div class="row justify-content-end">
-      <div class="col-xxl-6 col-xl-7 pe-xl-5">
+      <div class="col-xxl-6 col-xl-7 pe-xl-5" style="width: 100%">
         <div class="section-header text-xl-start text-center">
           <h2 class="section-title">{{ __($trip->data_values->heading) }}</h2>
           <p class="mt-2">{{ __($trip->data_values->sub_heading) }}</p>
         </div>
         <div class="best-trip-slider">
           @foreach ($properties as $property)
-          <div class="single-slide">
+          <div class="single-slide" >
             <div class="best-trip-card">
               @if ($property->discount != 0)
               <div class="best-trip-card__badge">

@@ -7,7 +7,7 @@
 <footer class="footer bg_img" style="background-image: url('{{ getImage('assets/images/frontend/footer/'.$footer->data_values->background_image, '1920x840') }}');">
     <div class="container">
       <div class="row gy-4">
-        <div class="col-lg-4 col-sm-6 order-lg-1 order-1">
+        <div class="col-lg-4 col-sm-6 order-lg-1 order-1 my-lg-0">
           <div class="footer-widget">
             <a href="{{ route('home') }}" class="footer-logo"><img src="{{ getImage(imagePath()['logoIcon']['path'] .'/logo.png') }}" alt="image"></a>
             <p class="mt-3">{{ __($footer->data_values->short_description) }}</p>
@@ -27,7 +27,7 @@
             </ul>
           </div>
         </div>
-        <div class="col-lg-2 col-sm-6 order-lg-3 order-4">
+        <div class="col-lg-2 col-sm-6 order-lg-3 order-4  d-none d-lg-block">
           <div class="footer-widget">
             <h4 class="footer-widget__title"><span>@lang('Importants links')</span></h4>
             <ul class="footer-menu-list">
@@ -43,7 +43,7 @@
             </ul>
           </div>
         </div>
-        <div class="col-lg-4 col-sm-6 order-lg-4 order-2">
+        <div class="col-lg-4 col-sm-6 order-lg-4 order-2  d-none d-lg-block">
           <div class="footer-widget">
             <h4 class="footer-widget__title"><span>@lang('Contact Info')</span></h4>
             <ul class="footer-contact-list">
