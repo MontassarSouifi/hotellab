@@ -1,4 +1,4 @@
-<section class="inner-hero bg_img" style="background-image: url('{{ asset($activeTemplateTrue.'images/bg/hero14.jpg') }}');">
+<section class="inner-hero bg_img" style="background-image: url('https://i.ibb.co/F8209x1/Summer-Holidays-Hero-Desktop.jpg') !important;">
     <div class="container">
       <div class="row justify-content-center">
         <div class="col-lg-6 text-center">

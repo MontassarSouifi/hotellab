@@ -585,7 +585,7 @@
                     </div>
                 </li> --}}
 
-                a<li class="sidebar__menu-header">@lang('Extra')</li>
+                <li class="sidebar__menu-header">@lang('Extra')</li>
 
 
                 <li class="sidebar-menu-item {{menuActive('admin.setting.cookie')}}">
@@ -623,7 +623,7 @@
                         <i class="menu-icon las la-bug"></i>
                         <span class="menu-title">@lang('Report & Request') </span>
                     </a>
-                </li> --}}
+                </li>
             </ul>
             {{-- <div class="text-center mb-3 text-uppercase">
                 <span class="text--primary">{{__(systemDetails()['name'])}}</span>
