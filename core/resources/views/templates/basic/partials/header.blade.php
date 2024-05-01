@@ -27,8 +27,8 @@
 
             @if (!auth()->check() && !auth()->guard('owner')->check())
             <div class="d-flex flex-wrap" style="gap:10px">
-              {{-- <a href="{{ route('user.login') }}" class="btn btn-sm btn-outline--base">@lang('User Login')</a>
-              <a href="{{ route('owner.login') }}" class="btn btn-sm btn--base">@lang('Owner Login')</a> --}}
+               <a href="{{ route('user.login') }}" class="btn btn-sm btn-outline--base">@lang('User Login')</a>
+{{--              <a href="{{ route('owner.login') }}" class="btn btn-sm btn--base">@lang('Owner Login')</a> --}}
             </div>
             @endif
 
