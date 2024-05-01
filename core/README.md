@@ -20,27 +20,32 @@
 ![App Screenshot](https://i.ibb.co/NCW6VT6/Capture-d-cran-155.png)
 
 ![row](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
-## Table of Contents
 
+## Table of Contents
 <details open="open">
   <ol>
-    <li><a> ➤ About The Project</a></li>
-    <li><a> ➤ Prerequisites</a></li>
-    <li><a> ➤ Folder Structure</a></li>
-    <li><a> ➤ Dataset</a></li>
-    <li><a> ➤ Roadmap</a></li>
-    <li><a> ➤ Preprocessing</a>
+    <li><a> ➤ Authors</a></li>
+    <li><a> ➤ Screenshots</a></li>
+    <li><a> ➤ Development</a>
       <ul>
-    <li><a> ➤ Pre-processed data</a></li>
-    <li><a> ➤ Statistical feature</a></li>
-    <li><a> ➤ Topological feature</a></li>
+        <li><a> ➤ Server Requirements</a></li>
+        <li><a> ➤ Installation</a>
+          <ul>
+            <li><a> ➤ Installation using Viserlab</a></li>
+            <li><a> ➤ Manual Installation with .env Configuration</a></li>
+          </ul>
+        </li>
+        <li><a> ➤ Folder Structure</a></li>
       </ul>
     </li>
-    <li><a> ➤ Results and Discussion</a></li>
-    <li><a> ➤ References</a></li>
-    <li><a> ➤ Contributors</a></li>
+    <li><a> ➤ Admin Dashboard</a></li>
+    <li><a> ➤ Hotel OverView</a></li>
+    <li><a> ➤ User Dashboard</a></li>
+    <li><a> ➤ FAQ</a></li>
+    <li><a> ➤ License</a></li>
   </ol>
 </details>
+
 
 ![row](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
