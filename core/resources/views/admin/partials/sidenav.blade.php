@@ -63,7 +63,7 @@
                     </div>
                 </li>
 
-                {{-- <li class="sidebar-menu-item sidebar-dropdown">
+                <li class="sidebar-menu-item sidebar-dropdown">
                     <a href="javascript:void(0)" class="{{menuActive('admin.users*',3)}}">
                         <i class="menu-icon las la-users"></i>
                         <span class="menu-title">@lang('Manage Users')</span>
@@ -99,47 +99,47 @@
                                 </a>
                             </li>
 
-                            <li class="sidebar-menu-item  {{menuActive('admin.users.email.unverified')}}">
-                                <a href="{{route('admin.users.email.unverified')}}" class="nav-link">
-                                    <i class="menu-icon las la-dot-circle"></i>
-                                    <span class="menu-title">@lang('Email Unverified')</span>
+{{--                            <li class="sidebar-menu-item  {{menuActive('admin.users.email.unverified')}}">--}}
+{{--                                <a href="{{route('admin.users.email.unverified')}}" class="nav-link">--}}
+{{--                                    <i class="menu-icon las la-dot-circle"></i>--}}
+{{--                                    <span class="menu-title">@lang('Email Unverified')</span>--}}
 
-                                    @if($email_unverified_users_count)
-                                        <span
-                                            class="menu-badge pill bg--primary ml-auto">{{$email_unverified_users_count}}</span>
-                                    @endif
-                                </a>
-                            </li>
+{{--                                    @if($email_unverified_users_count)--}}
+{{--                                        <span--}}
+{{--                                            class="menu-badge pill bg--primary ml-auto">{{$email_unverified_users_count}}</span>--}}
+{{--                                    @endif--}}
+{{--                                </a>--}}
+{{--                            </li>--}}
 
-                            <li class="sidebar-menu-item {{menuActive('admin.users.sms.unverified')}}">
-                                <a href="{{route('admin.users.sms.unverified')}}" class="nav-link">
-                                    <i class="menu-icon las la-dot-circle"></i>
-                                    <span class="menu-title">@lang('SMS Unverified')</span>
-                                    @if($sms_unverified_users_count)
-                                        <span
-                                            class="menu-badge pill bg--primary ml-auto">{{$sms_unverified_users_count}}</span>
-                                    @endif
-                                </a>
-                            </li>
+{{--                            <li class="sidebar-menu-item {{menuActive('admin.users.sms.unverified')}}">--}}
+{{--                                <a href="{{route('admin.users.sms.unverified')}}" class="nav-link">--}}
+{{--                                    <i class="menu-icon las la-dot-circle"></i>--}}
+{{--                                    <span class="menu-title">@lang('SMS Unverified')</span>--}}
+{{--                                    @if($sms_unverified_users_count)--}}
+{{--                                        <span--}}
+{{--                                            class="menu-badge pill bg--primary ml-auto">{{$sms_unverified_users_count}}</span>--}}
+{{--                                    @endif--}}
+{{--                                </a>--}}
+{{--                            </li>--}}
 
-                            <li class="sidebar-menu-item {{menuActive('admin.users.with.balance')}}">
-                                <a href="{{route('admin.users.with.balance')}}" class="nav-link">
-                                    <i class="menu-icon las la-dot-circle"></i>
-                                    <span class="menu-title">@lang('With Balance')</span>
-                                </a>
-                            </li>
+{{--                            <li class="sidebar-menu-item {{menuActive('admin.users.with.balance')}}">--}}
+{{--                                <a href="{{route('admin.users.with.balance')}}" class="nav-link">--}}
+{{--                                    <i class="menu-icon las la-dot-circle"></i>--}}
+{{--                                    <span class="menu-title">@lang('With Balance')</span>--}}
+{{--                                </a>--}}
+{{--                            </li>--}}
 
 
-                            <li class="sidebar-menu-item {{menuActive('admin.users.email.all')}}">
-                                <a href="{{route('admin.users.email.all')}}" class="nav-link">
-                                    <i class="menu-icon las la-dot-circle"></i>
-                                    <span class="menu-title">@lang('Email to All')</span>
-                                </a>
-                            </li>
+{{--                            <li class="sidebar-menu-item {{menuActive('admin.users.email.all')}}">--}}
+{{--                                <a href="{{route('admin.users.email.all')}}" class="nav-link">--}}
+{{--                                    <i class="menu-icon las la-dot-circle"></i>--}}
+{{--                                    <span class="menu-title">@lang('Email to All')</span>--}}
+{{--                                </a>--}}
+{{--                            </li>--}}
 
                         </ul>
                     </div>
-                </li> --}}
+                </li>
 
                 <li class="sidebar-menu-item sidebar-dropdown">
                     <a href="javascript:void(0)" class="{{menuActive('admin.owners*',3)}}">
@@ -176,7 +176,7 @@
                                     @endif
                                 </a>
                             </li>
- {{-- 
+ {{--
                             <li class="sidebar-menu-item  {{menuActive('admin.owners.email.unverified')}}">
                                 <a href="{{route('admin.owners.email.unverified')}}" class="nav-link">
                                     <i class="menu-icon las la-dot-circle"></i>
@@ -218,20 +218,13 @@
                     </div>
                 </li>
 
-                {{-- <li class="sidebar-menu-item sidebar-dropdown">
+                <li class="sidebar-menu-item sidebar-dropdown">
                     <a href="javascript:void(0)" class="{{menuActive('admin.gateway*',3)}}">
                         <i class="menu-icon las la-credit-card"></i>
                         <span class="menu-title">@lang('Payment Gateways')</span>
                     </a>
                     <div class="sidebar-submenu {{menuActive('admin.gateway*',2)}} ">
                         <ul>
-
-                            <li class="sidebar-menu-item {{menuActive('admin.gateway.automatic.index')}} ">
-                                <a href="{{route('admin.gateway.automatic.index')}}" class="nav-link">
-                                    <i class="menu-icon las la-dot-circle"></i>
-                                    <span class="menu-title">@lang('Automatic Gateways')</span>
-                                </a>
-                            </li>
                             <li class="sidebar-menu-item {{menuActive('admin.gateway.manual.index')}} ">
                                 <a href="{{route('admin.gateway.manual.index')}}" class="nav-link">
                                     <i class="menu-icon las la-dot-circle"></i>
@@ -240,9 +233,9 @@
                             </li>
                         </ul>
                     </div>
-                </li> --}}
+                </li>
 
-                {{-- <li class="sidebar-menu-item sidebar-dropdown">
+                <li class="sidebar-menu-item sidebar-dropdown">
                     <a href="javascript:void(0)" class="{{menuActive('admin.deposit*',3)}}">
                         <i class="menu-icon las la-credit-card"></i>
                         <span class="menu-title">@lang('Payments')</span>
@@ -272,12 +265,7 @@
                                 </a>
                             </li>
 
-                            <li class="sidebar-menu-item {{menuActive('admin.deposit.successful')}} ">
-                                <a href="{{route('admin.deposit.successful')}}" class="nav-link">
-                                    <i class="menu-icon las la-dot-circle"></i>
-                                    <span class="menu-title">@lang('Successful Payments')</span>
-                                </a>
-                            </li>
+
 
 
                             <li class="sidebar-menu-item {{menuActive('admin.deposit.rejected')}} ">
@@ -295,7 +283,7 @@
                             </li>
                         </ul>
                     </div>
-                </li> --}}
+                </li>
 
                 {{-- <li class="sidebar-menu-item sidebar-dropdown">
                     <a href="javascript:void(0)" class="{{menuActive('admin.withdraw*',3)}}">
@@ -454,7 +442,7 @@
                         <span class="menu-title">@lang('General Setting')</span>
                     </a>
                 </li>
-{{-- 
+{{--
                 <li class="sidebar-menu-item {{menuActive('admin.setting.logo.icon')}}">
                     <a href="{{route('admin.setting.logo.icon')}}" class="nav-link">
                         <i class="menu-icon las la-images"></i>
@@ -543,7 +531,7 @@
                         </ul>
                     </div>
                 </li> --}}
-{{-- 
+{{--
                 <li class="sidebar__menu-header">@lang('Frontend Manager')</li>
 
                 <li class="sidebar-menu-item {{menuActive('admin.frontend.templates')}}">
