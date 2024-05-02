@@ -13,7 +13,7 @@ $properties = \App\Models\Property::with('location', 'rooms')
       <div class="col-xxl-6 col-xl-7 pe-xl-5" style="width: 100%">
         <div class="section-header text-xl-start text-center">
           <h2 class="section-title" style="text-align: center">{{ __($trip->data_values->heading) }}</h2>
-          <p class="mt-2" style="text-align: center">{{ __($trip->data_values->sub_heading) }}</p>
+          <p class="mt-2 hero__description  mt-3 wow fadeInUp" style="text-align: center">{{ __($trip->data_values->sub_heading) }}</p>
         </div>
         <div class="best-trip-slider">
           @foreach ($properties as $property)

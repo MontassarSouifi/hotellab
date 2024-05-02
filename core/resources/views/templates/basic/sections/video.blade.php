@@ -10,7 +10,7 @@ $video = getContent('video.content', true);
                     <h2 class="section-title text-white wow fadeInUp" data-wow-duration="0.5s" data-wow-delay="0.3s">
                         {{ __($video->data_values->heading) }}
                     </h2>
-                    <p class="mt-3 text-white wow fadeInUp" data-wow-duration="0.5s" data-wow-delay="0.5s">
+                    <p class="mt-3 hero__description text-white wow fadeInUp" data-wow-duration="0.5s" data-wow-delay="0.5s">
                         {{ __($video->data_values->sub_heading) }}
                     </p>
                     <a href="{{ $video->data_values->video_url }}" class="video--btn mt-5 wow fadeInUp" data-rel="lightcase:myCollection" data-wow-duration="0.5s" data-wow-delay="0.7s"><i class="las la-play"></i></a>
